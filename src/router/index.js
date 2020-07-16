@@ -1,7 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Skills from '../views/Skills'
 
+/**
+ * Pour creer une nouvelle page: 
+ *  - Creer un composant dans le dossier views (comme Skills.vue)
+ *  - l'importer ici et creer sa route dans le tableau en dessous
+ *  - Dans composants/Menu.vue ajouter le path et l'icon dans le tableau items
+ */
 Vue.use(VueRouter)
 
   const routes = [
@@ -11,12 +18,9 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/competences',
+    name: 'Skills',
+    component: Skills
   }
 ]
 

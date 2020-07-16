@@ -1,0 +1,42 @@
+.skills-intro {
+    margin-top: 100px;
+    text-align: left;
+
+    p {
+        text-align: justify;
+    }
+}
+
+.card-one {
+    height: 480px;
+    margin-top: 30px;
+
+    ul {
+        display: flex;
+        padding: 0;
+    }
+}
+
+.card-two {
+    background-color: #A593E0;
+    height: 240px;
+    margin-top: 30px;
+}
+
+.card-three {
+    height: 480px;
+    margin-top: 120px;
+}
+
+.skills-card {
+    border: none;
+    -webkit-box-shadow: 0px 17px 23px -16px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 17px 23px -16px rgba(0,0,0,0.5);
+    box-shadow: 0px 17px 23px -16px rgba(0,0,0,0.5);
+}
+
+#design-tools {
+    margin-top: 60px;
+    text-align: left;
+}
+

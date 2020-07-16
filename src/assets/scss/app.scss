@@ -1,0 +1,9 @@
+@import 'override';
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+
+@import 'global';
+@import './views/home';
+@import './views/skills';
+
